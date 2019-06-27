@@ -1,0 +1,117 @@
+.header {
+  color: black;
+  background-color: black; }
+  .header img {
+    margin-right: 90px; }
+  .header_nav {
+    position: fixed;
+    z-index: 1000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .header_nav .nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      margin: 0px 85px; }
+      .header_nav .nav li:not(:last-child) {
+        margin-right: 70px; }
+      .header_nav .nav__item {
+        text-transform: uppercase;
+        list-style: none; }
+        .header_nav .nav__item:before {
+          display: inline-block;
+          content: '';
+          width: 8px;
+          height: 8px;
+          border: 1px solid white;
+          border-radius: 50%; }
+        .header_nav .nav__item a {
+          font-family: 'GothamBook';
+          font-size: 14px;
+          text-decoration: none;
+          color: white; }
+  .header_title {
+    font-size: 140px; }
+  .header_description {
+    font-size: 18px; }
+
+.test {
+  width: 1170px;
+  margin: 0 auto; }
+
+.slider {
+  background-color: blue; }
+  .slider_box {
+    height: 100vh; }
+  .slider_item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+    background: url(../img/Bg-header.jpg) center top/cover; }
+  .slider li {
+    display: block;
+    color: white; }
+
+.slick-dotted.slick-slider {
+  margin-bottom: 0px; }
+
+.slick-dots {
+  bottom: 0px;
+  top: 0px;
+  left: 95%;
+  width: inherit;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.slick-dots li button {
+  margin: 20px; }
+
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: white; }
+
+.slick-dots li button:before {
+  color: white;
+  position: relative; }
+
+.slick-dots li {
+  margin: 10px 5px; }
+
+.scroll {
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  line-height: 40px;
+  text-align: center;
+  color: white; }

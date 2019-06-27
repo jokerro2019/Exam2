@@ -1,0 +1,75 @@
+.latest {
+    height: 1035px;
+    background-image: url(../img/latest-bg.jpg);
+    padding-top: 140px;
+
+    &__slider {
+        position: relative;
+    }
+
+    & h2 {
+        color: white;
+        margin-bottom: 140px;
+        &:before {
+            content: '';
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 35px;
+            height: 2px;
+            width: 100px;
+            background-color: white;
+        }
+    }
+    & img {
+        height: 240px;
+        width: 370px;
+    }
+
+    &__item {
+        width: 370px !important; 
+        
+    }
+
+    &__span {
+        font-family: 'GothamBook';
+        font-size: 18px;
+    }
+    &__content {
+        background-color: white;
+        padding: 24px;
+        width: 370px;
+        & img {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+    }
+
+    &__box-1 {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.js-slick-prev,
+.js-slick-next {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+}
+.js-slick-prev {
+    left: -45px;
+    top: 50%;
+}
+.js-slick-next {
+    right: -25px;
+    top: 50%;
+}
+  

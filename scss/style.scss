@@ -1,0 +1,16 @@
+@import "_variables";
+@import "_global" ;
+
+@import "parts/header";
+@import "parts/whatWeDo";
+@import "parts/latest";
+@import "parts/galerry";
+@import "parts/map";
+@import "parts/footer";
+
+
+@media (max-width: 1000px) {
+    .header__nav {
+        width: 100%;
+    }
+  }
